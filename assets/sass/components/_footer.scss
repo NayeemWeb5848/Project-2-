@@ -1,0 +1,201 @@
+#Footer_part {
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+    padding: 65px 0 80px;
+
+    &::after {
+        @include BannerAfter(rgba(0, 0, 0, 0.8));
+    }
+
+    .fooetr_logo {
+        margin-top: 100px;
+
+        h2 {
+            color: #fff;
+        }
+
+        h6 {
+            color: #777;
+            font-size: 14px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-top: 52px;
+
+        }
+
+        P {
+            color: #777;
+            font-size: 17px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-top: 17px;
+        }
+    }
+
+    .footer_contact {
+        h3 {
+
+            color: #fff;
+            font-size: 24px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-bottom: 50px;
+
+        }
+
+        h5 {
+            color: #fff;
+            font-size: 16px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+
+            i {
+                margin-right: 20px;
+                font-size: 30px;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 16px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-left: 55px;
+            padding-bottom: 48px;
+            position: relative;
+            padding-top: 80px;
+
+
+            i {
+
+                position: absolute;
+                left: 2px;
+                top: 86px;
+                font-size: 30px;
+
+            }
+
+            span {
+                display: block;
+            }
+
+        }
+
+        h6 {
+            color: #fff;
+            font-size: 16px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-left: 48px;
+            padding-bottom: 48px;
+            position: relative;
+            padding-top: 25px;
+
+            span {
+                display: block;
+            }
+
+            i {
+
+                position: absolute;
+                left: 5px;
+                top: 25px;
+                font-size: 30px;
+
+            }
+        }
+    }
+
+    .footer_Signup {
+        h3 {
+
+            color: #fff;
+            font-size: 24px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-bottom: 50px;
+
+        }
+    }
+
+    .fooetr_button {
+        position: relative;
+
+        form {
+            input {
+
+                display: block;
+                width: 52%;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #ffff;
+                background-color: transparent;
+                background-clip: padding-box;
+                border: 1px solid #2b2411;
+
+            }
+        }
+
+        button {
+
+            position: absolute;
+            top: -1px;
+            right: 157px;
+            padding: 0 32px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: 'Montserrat Alternates', sans-serif;
+            background: #d9b257;
+            line-height: 43px;
+            border: none;
+            margin-left: -6px;
+            cursor: pointer;
+        }
+
+        h4 {
+
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 77px;
+
+        }
+
+        a {
+            i {
+
+                width: 38px;
+                height: 38px;
+                text-align: center;
+                line-height: 38px;
+                border: 1px solid #4f4328;
+                border-radius: 50%;
+                color: #999;
+                margin: 18px 6px;
+                transition: all linear .3s;
+
+                &:hover {
+                    background: #d9b257;
+                    color: #fff;
+                }
+
+            }
+        }
+
+        p {
+
+            color: #777777;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Arimo', sans-serif;
+            padding-top: 25px;
+
+        }
+
+    }
+}

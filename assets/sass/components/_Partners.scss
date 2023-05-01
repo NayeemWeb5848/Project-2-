@@ -1,0 +1,58 @@
+#Partners_part {
+        padding: 57px 2px 107px 1px;
+        background: #f1f1f1f1;
+    
+
+    .Partners_slider {
+        a {
+            padding: 58px 23px;
+            background: #ffffff;
+
+            img {}
+        }
+
+        .GRT {
+            a {
+
+                padding: 64px 12px;
+                background: #ffffff;
+
+                img {}
+            }
+        }
+
+        .GRT2 {
+            a {
+                padding: 56px 20px;
+                background: #ffffff;
+
+                img {}
+            }
+        }
+    }
+
+    .row {
+        --bs-gutter-x: -0.5rem;
+    }
+
+    .Partners_head {
+        h3 {
+            font-size: 35px;
+            font-family: $Robot;
+            text-align: center;
+            padding-bottom: 60px;
+            font-weight: 300;
+
+            span {
+                margin-left: 10px;
+                font-size: 35px;
+                font-family: $Robot;
+                text-align: center;
+                padding-bottom: 60px;
+                font-weight: 300;
+                color: #000000;
+            }
+        }
+    }
+
+}

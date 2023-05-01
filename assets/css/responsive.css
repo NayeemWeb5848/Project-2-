@@ -1,0 +1,347 @@
+@media (min-width: 1400px) {
+    Body{
+        overflow-x: hidden;
+    }
+    /* Banner*/
+    .banner_part .next_arrow {
+        right: 15px;
+    }
+    .banner_part .banner_item .banner_text {
+        margin-left: 37px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    Body{
+        overflow-x: hidden;
+    }
+    /* Banner Part Start */
+    /* .banner_part .banner_item .banner_text {
+        margin-left: 47px;
+    }
+    .banner_part .banner_item .banner_text h1 {
+        font-size: 36px;
+    } */
+    /* Banner Part End */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    /* Manu Part Start */
+    #header_part .Donate a {
+        margin: 12px 0px 0px -2px;
+    }
+
+    /* Manu Part End */
+
+    /* Banner Part Start */
+    .banner_part .prev_arrow {
+        position: absolute;
+        left: -3px;
+        top: 93%;
+    }
+
+    .banner_part .next_arrow {
+        right: -3px;
+        top: 93%;
+    }
+
+    /* Banner Part End */
+
+    /* Partners Part Start */
+    /* #Partners_part .Partners_slider a {
+        padding: 57px 61px;
+        background: #ffffff;
+    }
+
+    #Partners_part .Partners_slider .GRT2 a {
+        padding: 55px 59px;
+        background: #ffffff;
+    }
+    #Partners_part .Partners_slider .GRT a {
+        padding: 64px 49px;
+        background: #ffffff;
+    } */
+
+    /* Partners Part End */
+
+    /* service Part Start */
+    .service_img img {
+        padding-top: 257px;
+    }
+
+    #services_part .service_textall .ser_text span {
+        font-size: 21px;
+    }
+
+    /* service Part End */
+
+
+    /* Events Part Start */
+    #Events_part .events_text a {
+        margin: 16px 0px 0px 62px;
+    }
+
+    #Events_part .events_text p {
+        font-size: 16px;
+    }
+
+    /* Events Part End */
+
+
+
+
+
+    /* Footer Part Start */
+    #Footer_part .fooetr_button button {
+        right: 24px;
+        top: -2px;
+    }
+
+    #Footer_part .fooetr_button form input {
+        width: 59%;
+    }
+
+    #Footer_part .footer_contact h5 {
+        font-size: 15px;
+    }
+
+    /* Footer Part End */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Manu Part Start */
+    #header_part .Main_manu .navbar-nav a {
+        line-height: 46px;
+        padding: 0 283px;
+    }
+
+    #header_part .Donate a {
+        margin: 12px 0px 12px 553px;
+    }
+
+    /* Manu Part End */
+
+
+    /* Banner Part Start */
+    .banner_part .prev_arrow {
+        left: -3px;
+        top: 93%;
+    }
+
+    .banner_part .next_arrow {
+        right: -3px;
+        top: 93%;
+    }
+
+    /* Banner Part End */
+
+    /* Enents Part Start */
+    #Events_part .events_text p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    #Events_part .events_text a {
+        margin: 16px 0px 0px 21px;
+    }
+
+    #Events_part .nextt {
+        right: 40%;
+    }
+
+    /* Enents Part End */
+
+
+
+
+    /* Footer Part Start */
+    #Footer_part .footer_contact h3 {
+        padding: 46px;
+    }
+
+    #Footer_part .fooetr_button button {
+        right: 214px;
+        top: -2px;
+    }
+
+    /* Footer Part End */
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Manu Part Start */
+    #header_part .Main_manu .navbar-nav a {
+        line-height: 39px;
+        padding: 0 194px;
+    }
+
+    #header_part .Donate a {
+        margin: 12px 0px 10px 374px;
+    }
+
+    /* Manu Part End */
+
+
+    /* Evnts Part Start */
+    #Events_part .events_text p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    #Events_part .events_text a {
+        margin: 16px 0px 0px 24px;
+    }
+
+    #Events_part .nextt {
+        right: 37%;
+    }
+
+    #Events_part .prevv {
+        left: 38%;
+    }
+
+    /* Evnts Part End */
+
+    /* Partners Part Start */
+    #Partners_part .Partners_slider a {
+        padding: 58px 37px;
+        background: #ffffff;
+    }
+    #Partners_part .Partners_slider .GRT2 a {
+        padding: 56px 32px;
+        background: #ffffff;
+    }
+    /* Partners Part end */
+
+    /* Banner Part Start */
+    .banner_part .prev_arrow {
+        left: -3px;
+        top: 93%;
+    }
+
+    .banner_part .next_arrow {
+        right: -3px;
+        top: 93%;
+    }
+
+    /* Banner Part End */
+
+
+
+    /* Footer Part Start */
+    #Footer_part .footer_contact h3 {
+        padding: 44px;
+    }
+
+    /* Footer Part End */
+
+
+
+
+
+    /* Manu Part Start */
+    /* Manu Part End */
+    /* Manu Part Start */
+    /* Manu Part End */
+}
+
+@media (max-width: 575.98px) {
+
+    /* banner part start */
+    .banner_part .next_arrow {
+        top: 93%;
+    }
+
+    .banner_part .prev_arrow {
+        top: 93%;
+    }
+
+    #header_part .Donate a {
+        margin: 15px 0px 12px 213px;
+        line-height: 37px;
+    }
+
+    #header_part .Main_manu .navbar-nav {
+        text-align: center;
+    }
+
+    /* banner part end */
+
+    /* Events part end */
+    #Events_part .prevv {
+        left: 27%;
+    }
+
+    #Events_part .nextt {
+        right: 22%;
+    }
+
+    #Events_part .events_text a {
+        margin: 16px 0px 0px 18px;
+    }
+
+    #Events_part .events_text p {
+        font-size: 14px;
+    }
+
+    /* Events part end */
+
+    /* service part start*/
+    #services_part .service_textall .ser_text span {
+        font-size: 21px;
+    }
+
+    #services_part .service_textall .ser_text p {
+        font-size: 15px;
+    }
+
+    /* service part end */
+
+    /* Partners part start */
+    #Partners_part .Partners_slider a {
+        padding: 19px 13px;
+        background: #ffffff;
+        margin-right: 6px;
+    }
+
+    #Partners_part .Partners_slider .GRT a {
+        padding: 25px 12px;
+        background: #ffffff;
+        margin-left: 2px;
+    }
+
+    #Partners_part .Partners_slider .GRT2 a {
+        padding: 21px 20px;
+        background: #ffffff;
+    }
+
+    #Partners_part .Copy_part h6 a span {
+        margin-left: -5px;
+    }
+
+    /* Partners part end */
+
+
+    /* Footer part start */
+    #Footer_part .fooetr_button button {
+        top: -2px;
+        right: 119px;
+    }
+
+    #Footer_part .fooetr_button form input {
+        width: 55%;
+    }
+
+    #Footer_part .footer_contact h3 {
+        padding: 57px 0 40px 80px;
+    }
+
+    /* Footer part end */
+
+
+
+}

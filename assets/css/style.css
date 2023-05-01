@@ -1,0 +1,534 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0; }
+
+ul,
+ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+/*=======================================
+          Common css end
+======================================*/
+/*=======================================
+           Header part start
+======================================*/
+#header_part {
+  padding-top: 30px; }
+  #header_part .Main_manu .navbar-nav {
+    margin-left: 3px; }
+    #header_part .Main_manu .navbar-nav a {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 30px;
+      margin: 0 9px;
+      color: #000000;
+      -webkit-transition: all linear .2s;
+      transition: all linear .2s; }
+      #header_part .Main_manu .navbar-nav a:hover {
+        color: #FBB122; }
+  #header_part .Main_manu .in {
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+    border-radius: 10px !important; }
+    #header_part .Main_manu .in:hover {
+      color: #ffffff !important;
+      background: #FBB122; }
+  #header_part .Main_manu .up {
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+    border-radius: 10px !important; }
+    #header_part .Main_manu .up:hover {
+      color: #ffffff !important;
+      background: #FBB122; }
+  #header_part .Donate a {
+    margin: 12px 0px 0px 0px;
+    font-size: 16px;
+    text-transform: none;
+    background: #FBB122;
+    color: #fff !important;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding: 0 20px 0 30px;
+    line-height: 40px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s; }
+    #header_part .Donate a::after {
+      content: "";
+      position: absolute;
+      left: 0%;
+      top: -1px;
+      border-left: 15px solid #f1f1f1;
+      border-right: 20px solid transparent;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent; }
+    #header_part .Donate a:hover {
+      background: #000000; }
+
+/*=======================================
+            Header part end
+  ======================================*/
+/*=======================================
+             banner part staer
+  ======================================*/
+.banner_part .banner_item {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  height: 800px; }
+  .banner_part .banner_item .banner_text {
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 240px;
+    padding: 60px 30px; }
+    .banner_part .banner_item .banner_text h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 40px;
+      color: #fff;
+      line-height: 50px;
+      position: relative;
+      font-weight: 300;
+      padding-bottom: 30px; }
+      .banner_part .banner_item .banner_text h1::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100px;
+        height: 3px;
+        background: #fff; }
+    .banner_part .banner_item .banner_text a {
+      margin-top: 50px;
+      font-size: 16px;
+      text-transform: none;
+      background: #FBB122;
+      color: #fff !important;
+      font-family: 'Roboto Slab', serif;
+      font-weight: 500;
+      padding: 0 20px 0 30px;
+      line-height: 40px;
+      position: relative;
+      display: inline-block;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+      -moz-transition: all 0.35s;
+      -ms-transition: all 0.35s; }
+      .banner_part .banner_item .banner_text a::after {
+        content: "";
+        position: absolute;
+        left: 0%;
+        top: -1px;
+        border-left: 15px solid #f1f1f1;
+        border-right: 20px solid transparent;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent; }
+      .banner_part .banner_item .banner_text a:hover {
+        background: #ffffff;
+        color: #000000 !important; }
+.banner_part .prev_arrow {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-left: 25px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 5px 36px 0px 73px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center; }
+  .banner_part .prev_arrow:hover {
+    background: #FBB122; }
+.banner_part .next_arrow {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-right: -95px;
+  -webkit-transform: translateY(-50%);
+  transform: translateX(-50%);
+  padding: 4px 69px 0px 36px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center; }
+  .banner_part .next_arrow:hover {
+    background: #FBB122; }
+
+/*=======================================
+              banner part end
+======================================*/
+/*=======================================
+             OUR EVENTS part staer
+  ======================================*/
+#Events_part {
+  background-color: #eff1f2;
+  padding: 100px 40px; }
+  #Events_part .Events_img {
+    padding: 32px 32px; }
+    #Events_part .Events_img .events_text:hover {
+      -webkit-box-shadow: 1px 0px 10px 6px #000000;
+      box-shadow: 1px -2px 6px -1px #000000; }
+  #Events_part .events_text {
+    background-color: #ffff;
+    padding: 20px 20px; }
+    #Events_part .events_text p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000; }
+    #Events_part .events_text a {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      margin: 16px 0px 0px 95px;
+      color: #000000;
+      background: #84C6EB;
+      padding: 6px;
+      border-radius: 33px;
+      text-align: center; }
+  #Events_part .head_text {
+    padding-bottom: 16px; }
+    #Events_part .head_text h4 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 42px;
+      color: #000000; }
+      #Events_part .head_text h4 span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        color: #226909;
+        padding-right: 10px; }
+  #Events_part .nextt {
+    position: absolute;
+    right: 44%;
+    bottom: -83px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s; }
+    #Events_part .nextt:hover {
+      background: linear-gradient(64deg, #FBB122, #9c1212);
+      -webkit-box-shadow: 1px 0px 10px 6px #000000;
+      box-shadow: 1px -2px 15px -1px #000000; }
+  #Events_part .prevv {
+    position: absolute;
+    left: 43%;
+    bottom: -83px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s; }
+    #Events_part .prevv:hover {
+      background: linear-gradient(64deg, #FBB122, #9c1212);
+      -webkit-box-shadow: 1px 0px 10px 6px #000000;
+      box-shadow: 1px -2px 15px -1px #000000; }
+
+/*=======================================
+              OUR EVENTS part end
+======================================*/
+/*=======================================
+             Partners part staer
+  ======================================*/
+#Partners_part {
+  padding: 57px 2px 107px 1px;
+  background: #f1f1f1f1; }
+  #Partners_part .Partners_slider a {
+    padding: 58px 23px;
+    background: #ffffff; }
+  #Partners_part .Partners_slider .GRT a {
+    padding: 64px 12px;
+    background: #ffffff; }
+  #Partners_part .Partners_slider .GRT2 a {
+    padding: 56px 20px;
+    background: #ffffff; }
+  #Partners_part .row {
+    --bs-gutter-x: -0.5rem; }
+  #Partners_part .Partners_head h3 {
+    font-size: 35px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: 300; }
+    #Partners_part .Partners_head h3 span {
+      margin-left: 10px;
+      font-size: 35px;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      padding-bottom: 60px;
+      font-weight: 300;
+      color: #000000; }
+
+/*=======================================
+              Partners part end
+======================================*/
+/*=======================================
+             Footer part staer
+  ======================================*/
+#Footer_part {
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+  padding: 65px 0 80px; }
+  #Footer_part::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1; }
+  #Footer_part .fooetr_logo {
+    margin-top: 100px; }
+    #Footer_part .fooetr_logo h2 {
+      color: #fff; }
+    #Footer_part .fooetr_logo h6 {
+      color: #777;
+      font-size: 14px;
+      font-family: "Montserrat Alternates";
+      font-weight: 400;
+      padding-top: 52px; }
+    #Footer_part .fooetr_logo P {
+      color: #777;
+      font-size: 17px;
+      font-family: "Montserrat Alternates";
+      font-weight: 400;
+      padding-top: 17px; }
+  #Footer_part .footer_contact h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    padding-bottom: 50px; }
+  #Footer_part .footer_contact h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400; }
+    #Footer_part .footer_contact h5 i {
+      margin-right: 20px;
+      font-size: 30px; }
+  #Footer_part .footer_contact p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    padding-left: 55px;
+    padding-bottom: 48px;
+    position: relative;
+    padding-top: 80px; }
+    #Footer_part .footer_contact p i {
+      position: absolute;
+      left: 2px;
+      top: 86px;
+      font-size: 30px; }
+    #Footer_part .footer_contact p span {
+      display: block; }
+  #Footer_part .footer_contact h6 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    padding-left: 48px;
+    padding-bottom: 48px;
+    position: relative;
+    padding-top: 25px; }
+    #Footer_part .footer_contact h6 span {
+      display: block; }
+    #Footer_part .footer_contact h6 i {
+      position: absolute;
+      left: 5px;
+      top: 25px;
+      font-size: 30px; }
+  #Footer_part .footer_Signup h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    padding-bottom: 50px; }
+  #Footer_part .fooetr_button {
+    position: relative; }
+    #Footer_part .fooetr_button form input {
+      display: block;
+      width: 52%;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #ffff;
+      background-color: transparent;
+      background-clip: padding-box;
+      border: 1px solid #2b2411; }
+    #Footer_part .fooetr_button button {
+      position: absolute;
+      top: -1px;
+      right: 157px;
+      padding: 0 32px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: 'Montserrat Alternates', sans-serif;
+      background: #d9b257;
+      line-height: 43px;
+      border: none;
+      margin-left: -6px;
+      cursor: pointer; }
+    #Footer_part .fooetr_button h4 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 400;
+      font-family: 'Montserrat Alternates', sans-serif;
+      padding-top: 77px; }
+    #Footer_part .fooetr_button a i {
+      width: 38px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+      border: 1px solid #4f4328;
+      border-radius: 50%;
+      color: #999;
+      margin: 18px 6px;
+      -webkit-transition: all linear .3s;
+      transition: all linear .3s; }
+      #Footer_part .fooetr_button a i:hover {
+        background: #d9b257;
+        color: #fff; }
+    #Footer_part .fooetr_button p {
+      color: #777777;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Arimo', sans-serif;
+      padding-top: 25px; }
+
+/*=======================================
+              Footer part end
+======================================*/
+/*=======================================
+             Service part staer
+  ======================================*/
+#services_part .service_head {
+  padding-top: 70px; }
+  #services_part .service_head h3 {
+    color: #ff0000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500; }
+#services_part .service_textall {
+  padding-top: 50px; }
+  #services_part .service_textall .ser_text i {
+    font-size: 30px;
+    color: #FBB122; }
+  #services_part .service_textall .ser_text p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #333;
+    padding: 15px 0px 75px 55px; }
+    #services_part .service_textall .ser_text p a {
+      margin-left: 10px; }
+  #services_part .service_textall .ser_text span {
+    padding: 0px 0px 0px 20px;
+    color: #ff0000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 24px; }
+
+/*=======================================
+              Service part end
+======================================*/
+/*=======================================
+             PARTNERS part staer
+  ======================================*/
+#Partners_part {
+  padding: 57px 2px 107px 1px;
+  background: #f1f1f1f1; }
+  #Partners_part .Partners_slider a {
+    padding: 58px 23px;
+    background: #ffffff; }
+  #Partners_part .Partners_slider .GRT a {
+    padding: 64px 12px;
+    background: #ffffff; }
+  #Partners_part .Partners_slider .GRT2 a {
+    padding: 56px 20px;
+    background: #ffffff; }
+  #Partners_part .row {
+    --bs-gutter-x: -0.5rem; }
+  #Partners_part .Partners_head h3 {
+    font-size: 35px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: 300; }
+    #Partners_part .Partners_head h3 span {
+      margin-left: 10px;
+      font-size: 35px;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      padding-bottom: 60px;
+      font-weight: 300;
+      color: #000000; }
+
+/*=======================================
+            PARTNERS part end
+======================================*/
+
+/*# sourceMappingURL=style.css.map */
